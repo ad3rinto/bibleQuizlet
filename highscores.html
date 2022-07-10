@@ -1,10 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>High Scores</title>
+    <script
+      src="https://kit.fontawesome.com/991a2f7f65.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="highscores.css" />
   </head>
   <body>
+    <div class="container">
+      <div id="highScores" class="flex-center flex-column">
+        <h1 id="finalScore">Leaderboard</h1>
+        <ul id="highScoresList"></ul>
+        <a href="/" class="btn">Go Home<i class="fas fa-home"></i></a>
+      </div>
+    </div>
 
+    <script src="highscores.js"></script>
   </body>
 </html>
